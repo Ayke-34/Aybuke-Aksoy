@@ -62,31 +62,25 @@
             research work on Machine Learning. Loves to learn and use new
             technologies.
           </div>
-          <div class="horizontal-line"></div>
         </div>
         <div class="ek-bilgiler">
           <div>
-            Languages
+            <div>Languages</div>
             <div class="alt">English, Bangla</div>
-            Social Media
+            <div>Social Media</div>
             <div class="alt">
-              <img
-                src="SocialLinkedIn.svg"
-                alt="SocialLinkedIn"
-                class="soc"
-                usemap="#sosyal"
-              />
-              <map name="sosyal">
-                <area
-                  shape="default"
-                  coords=""
-                  href="https://tr.linkedin.com"
-                  alt="https://tr.linkedin.com"
+              <a href="https://tr.linkedin.com">
+                <img
+                  src="SocialLinkedIn.svg"
+                  alt="SocialLinkedIn"
+                  class="soc"
+                  usemap="#sosyal"
                 />
-              </map>
+              </a>
               <img
                 src="SocialGitHub.svg"
                 alt="SocialGitHub"
+                class="soc"
                 usemap="#sosyal2"
               />
               <map name="sosyal2">
@@ -132,76 +126,57 @@
         <div class="sonsutun">
           High Impact Activities
           <div class="sagbilgi">
-            <a href="https://mvp.microsoft.com/en-US/activities/13694"
-              ><h1 class="baslik">
-                Speaker/Presenter for Event at Student Ambassadors Bangladesh
-                Orientation (October 2021)
-              </h1>
-              <h2 class="aciklama">
-                This is a system auto-created Activity associated with the
-                Student Ambassadors Bangladesh Orientatio
-              </h2></a
-            >
+            <div class="sagbilgi_ust">
+              <a href="https://mvp.microsoft.com/en-US/activities/13694"
+                ><h1 class="baslik">
+                  Speaker/Presenter for Event at Student Ambassadors Bangladesh
+                  Orientation (October 2021)
+                </h1>
+                <h2 class="aciklama">
+                  This is a system auto-created Activity associated with the
+                  Student Ambassadors Bangladesh Orientatio
+                </h2>
+              </a>
+              <img
+                class="ikon"
+                src="Icon-SpeakerPresenter.svg"
+                alt="Icon-SpeakerPresenter"
+              />
+            </div>
             <button type="button" class="linkrobot">Read More</button>
-            <img
-              class="ikon"
-              src="Icon-SpeakerPresenter.svg"
-              alt="Icon-SpeakerPresenter"
-            />
           </div>
 
           <div class="sagbilgi">
-            <a href="https://mvp.microsoft.com/en-US/activities/20218"
-              ><h1 class="baslik">Contributor at Data Science for Beginners</h1>
-              <h2 class="aciklama">
-                Data Science for Beginners is a curriculum on GitHub offered by
-                the Azure Cloud Advocates at Microso
-              </h2></a
-            >
+            <div class="sagbilgi_ust">
+              <a href="https://mvp.microsoft.com/en-US/activities/20218"
+                ><h1 class="baslik">
+                  Contributor at Data Science for Beginners
+                </h1>
+                <h2 class="aciklama">
+                  Data Science for Beginners is a curriculum on GitHub offered
+                  by the Azure Cloud Advocates at Microso
+                </h2></a
+              >
+              <img class="ikon" src="icon2.png" alt="icon2" />
+            </div>
             <button type="button" class="linkrobot">Read More</button>
-            <img class="ikon" src="icon2.png" alt="icon2" />
           </div>
 
           <div class="sagbilgi">
-            <a href="https://mvp.microsoft.com/en-US/activities/20153"
-              ><h1 class="baslik">
-                Microsoft Certified for Azure Fundamentals
-              </h1>
-              <h2 class="aciklama">
-                Passed the Microsoft Technical Certification Exam for Azure
-                Fundamentals.
-              </h2></a
-            >
-            <button type="button" class="linkrobot">Read More</button>
-            <img class="ikon" src="icon3.png" alt="icon3" />
-          </div>
+            <div class="sagbilgi_ust">
+              <a href="https://mvp.microsoft.com/en-US/activities/20153"
+                ><h1 class="baslik">
+                  Microsoft Certified for Azure Fundamentals
+                </h1>
+                <h2 class="aciklama">
+                  Passed the Microsoft Technical Certification Exam for Azure
+                  Fundamentals.
+                </h2></a
+              >
+              <img class="ikon" src="icon3.png" alt="icon3" />
+            </div>
 
-          <div class="sagbilgi">
-            <a href="https://mvp.microsoft.com/en-US/activities/1850"
-              ><h1 class="baslik">
-                Speaker at VS Code Extensions for Web Development
-              </h1>
-              <h2 class="aciklama">
-                VS Code is a code editor by Microsoft that supports writing
-                codes in multiple programming languages
-              </h2></a
-            >
             <button type="button" class="linkrobot">Read More</button>
-            <img class="ikon" src="icon4.jpg" alt="icon4" />
-          </div>
-
-          <div class="sagbilgi">
-            <a href="https://mvp.microsoft.com/en-US/activities/1849"
-              ><h1 class="baslik">
-                Speaker at Virtual Workshop on Microsoft Power Automate
-              </h1>
-              <h2 class="aciklama">
-                Microsoft Power Automate is a system that turns manual tasks
-                into automated workflows. This workshop
-              </h2></a
-            >
-            <button type="button" class="linkrobot">Read More</button>
-            <img class="ikon" src="sonicon.svg" alt="sonicon" />
           </div>
         </div>
       </div>
@@ -326,14 +301,6 @@
       font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI",
         -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
     }
-
-    .horizontal-line {
-      height: 50%;
-      border-left: 1px solid rgba(218, 210, 210, 0.747);
-      position: absolute;
-      left: 41%;
-      top: 45%;
-    }
     .ek-bilgiler {
       color: rgb(0, 120, 212);
       font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI",
@@ -342,15 +309,20 @@
       display: flex;
       margin-left: 540px;
       margin-top: -250px;
+      border-left: 1px solid rgba(218, 210, 210, 0.747);
+      padding-left: 16px;
     }
     .alt {
       font-size: 16px;
       color: rgb(102, 102, 102);
+      margin-top: 12px;
+      margin-bottom: 16px;
     }
 
     .soc {
       width: 24px;
       height: 24px;
+      margin-right: 8px;
     }
     .sonsutun {
       color: rgb(50, 49, 48);
@@ -365,6 +337,9 @@
       margin-top: -180px;
       border-style: solid;
       border-color: transparent;
+      width: 365px;
+      height: 150;
+      background: rgb(243, 242, 241);
     }
 
     .sagbilgi {
@@ -373,12 +348,15 @@
       border-radius: 8px;
       margin-top: 20px;
       padding: 8px 24px 8px 24px;
-      background: rgb(243, 242, 241);
       font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
         Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
       color: transparent;
       margin-right: 25px;
       margin-inline: initial;
+      background: white;
+      margin-left: 16px;
+      margin-right: 16px;
+      text-decoration: none;
     }
     .linkrobot {
       font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI",
@@ -395,6 +373,7 @@
     .ikon {
       width: 7rem;
       height: 4rem;
+      margin-right: 16px;
     }
     .baslik {
       font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI",
@@ -410,6 +389,12 @@
       font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI",
         -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
       font-weight: normal;
+    }
+    .sagbilgi_ust {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+      align-items: center;
     }
   </style>
 </html>
